@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --green: #006400;
+  --oceanblue: #0077b6;
+  --earthbrown: #8b4513;
+  --sandwhite: #f5f5dc;
+ 
+}
+
+@theme inline {
+  --color-green: var(--green);
+  --color-oceanblue: var(--oceanblue);
+  --color-earthbrown: var(--earthbrown);
+  --color-sandwhite: var(--sandwhite);
+  --color-foreground: var(--foreground);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sue-ellen-francisco), cursive;
+}
+
+body {
+  font-family: var(--font-outfit), sans-serif;
+}
