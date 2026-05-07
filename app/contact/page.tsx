@@ -1,12 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-// import {
-//   Mail,
-//   MapPin,
-//   Phone,
-//   Send,
-// } from "remix icon";
+
 
 const ContactSection = () => {
   const [formData, setFormData] = useState({
