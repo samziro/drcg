@@ -3,7 +3,7 @@ import React from "react";
 const Join = () => {
   return (
     <div>
-      <section className="py-20 md:py-28 bg-green/10">
+      <section className="py-20 md:py-28">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <i className="ri-hand-heart-line text-5xl text-gray-900/70 mx-auto mb-8"></i>
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-gray-900">

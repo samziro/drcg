@@ -3,7 +3,7 @@ import React from "react";
 const Activities = () => {
   return (
     <div>
-      <section className="py-20 md:py-28">
+      <section className="py-20 md:py-28 bg-green/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <span className="text-sm font-semibold tracking-wider uppercase text-gray-900/70">

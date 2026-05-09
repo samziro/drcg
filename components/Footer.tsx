@@ -4,7 +4,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <footer className="text-gray-900 ">
+      <footer className="text-gray-900 bg-green/10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
             <div>
@@ -72,14 +72,8 @@ const Footer = () => {
             <div>
               <h4 className="font-heading font-semibold mb-4">Get Involved</h4>
               <ul className="space-y-2 text-sm text-gray-900/70">
-                <li>
-                  <a
-                    href="/membership"
-                    className="hover:text-nature transition-colors"
-                  >
-                    Become a Member
-                  </a>
-                </li>
+                
+                  
                 <li>
                   <a
                     href="/partnerships"
