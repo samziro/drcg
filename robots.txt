@@ -1,0 +1,12 @@
+# robots.txt — Dabaso Rock Conservation Group
+# https://dabasorockconservationgroup.vercel.app//robots.txt
+
+User-agent: *
+Allow: /
+
+# Block Next.js internals from being indexed
+Disallow: /_next/
+Disallow: /api/
+
+# Sitemap location — submit this URL to Google Search Console too
+Sitemap: https://dabasorockconservationgroup.vercel.app//sitemap.xml
