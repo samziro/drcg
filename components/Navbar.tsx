@@ -9,11 +9,8 @@ const navLinks = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Programs", href: "/programs" },
-  { name: "Projects", href: "/projects" },
-  { name: "Eco-Tourism", href: "/eco-tourism" },
-  { name: "Gallery", href: "/gallery" },
-  { name: "Membership", href: "/membership" },
-  { name: "Partnerships", href: "/partnerships" },
+  { name: "Blogs", href: "/blogs" },
+  { name: "Donate", href: "/donate" },
   { name: "Contact", href: "/contact" },
 ];
 
