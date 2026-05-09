@@ -41,8 +41,9 @@ const Header = () => {
             className="flex items-center gap-3"
             onClick={closeMenu}
           >
+            
             <Image
-              src="/favicon.png"
+              src="/logo.png"
               alt="Dabaso Rock Conservation Group"
               width={52}
               height={52}
@@ -92,9 +93,9 @@ const Header = () => {
             aria-label="Toggle Menu"
           >
             {menuOpen ? (
-              <i className="ri-close-large-line text-green"></i>
+              <i className="ri-close-large-line 2xl text-green"></i>
             ) : (
-              <i className="ri-menu-3-line text-lg text-green"></i>
+              <i className="ri-menu-3-line text-2xl text-green"></i>
             )}
           </button>
 
