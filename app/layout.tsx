@@ -3,6 +3,7 @@ import {  Sue_Ellen_Francisco, Outfit } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 const sueEllenFrancisco = Sue_Ellen_Francisco({
   variable: "--font-sue-ellen-francisco",
@@ -41,6 +42,7 @@ export default function RootLayout({
       <Navbar />
       {children}
       <Footer />
+      <Analytics/> 
       </body>
     </html>
   );
