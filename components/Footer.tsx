@@ -43,45 +43,11 @@ const Footer = () => {
                     Programs
                   </a>
                 </li>
-                <li>
-                  <a
-                    href="/projects"
-                    className="hover:text-nature transition-colors"
-                  >
-                    Projects
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/eco-tourism"
-                    className="hover:text-nature transition-colors"
-                  >
-                    Eco-Tourism
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/gallery"
-                    className="hover:text-nature transition-colors"
-                  >
-                    Gallery
-                  </a>
-                </li>
               </ul>
             </div>
             <div>
               <h4 className="font-heading font-semibold mb-4">Get Involved</h4>
               <ul className="space-y-2 text-sm text-gray-900/70">
-                
-                  
-                <li>
-                  <a
-                    href="/partnerships"
-                    className="hover:text-nature transition-colors"
-                  >
-                    Partner With Us
-                  </a>
-                </li>
                 <li>
                   <a
                     href="/contact"
@@ -124,7 +90,6 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-     
     </div>
   );
 };
