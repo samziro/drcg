@@ -22,7 +22,8 @@ const HeroSection = () => {
       <div className="relative z-10 mx-auto max-w-4xl px-4 text-center bg-green/50 py-8 rounded-xl ">
 
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-sandwhite leading-tight">
-          Protecting Mida Creek.{" "}
+          Protecting Mida Creek.{" "} 
+          
           <span className="sandwhitewhite/90">
             Empowering Communities.
           </span>

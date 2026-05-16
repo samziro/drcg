@@ -160,14 +160,6 @@ export const metadata: Metadata = {
     },
   },
 
-  // ─── Verification tokens ─────────────────────────────────────────────────────
-  // Add your real tokens after verifying each property in Search Console / Bing.
-  verification: {
-    google: "PASTE_YOUR_GOOGLE_SEARCH_CONSOLE_TOKEN_HERE",
-    // yandex: "PASTE_IF_NEEDED",
-    // bing: "PASTE_YOUR_BING_WEBMASTER_TOKEN_HERE",
-  },
-
   // ─── App / PWA metadata ─────────────────────────────────────────────────────
   applicationName: SITE_NAME,
   appleWebApp: {
@@ -287,13 +279,11 @@ const structuredData = {
       },
       geo: {
         "@type": "GeoCoordinates",
-        // Exact coordinates — verified via Google Maps (Dabaso Rock Conservation Rock)
-        // https://maps.google.com/?cid=0x333ae48c366302da
         latitude: -3.3646184,
         longitude: 39.9913599,
       },
       hasMap: "https://www.google.com/maps/place/Dabaso+Rock+Conservation+Rock/@-3.3661532,39.9916319,221m/data=!3m1!1e3!4m6!3m5!1s0x1815810042b09ff7:0x333ae48c366302da",
-      openingHours: "Mo-Fr 08:00-16:00",
+      openingHours: ["Tue 09:00-13:00", "Fri 09:00-13:00"],
       priceRange: "Free",
       currenciesAccepted: "KES, USD",
     },
